@@ -548,8 +548,8 @@ from, to {
   }
 
   .portfolio-box{
-    width: 100%;
-    height: 95%;
+    width: 90%;
+    height: 90%;
     position: absolute;
     top: 40%;
   }
