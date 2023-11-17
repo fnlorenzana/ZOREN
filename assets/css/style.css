@@ -519,7 +519,6 @@ from, to {
 .portfolio{
     background: var(--text-color);
     padding: 70px 140px;
-    height: 100vh;
   }
 
 .portfolio .heading1{
