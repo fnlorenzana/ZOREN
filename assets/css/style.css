@@ -351,9 +351,9 @@ from, to {
     box-shadow: 0 0 5px var(--main-color),
                 0 0 25px var(--main-color);
     height: auto;
-    width: 28%;
+    width: 27%;
     position: absolute;
-    left: 11%;
+    left: 10%;
     top: 115%;
     transition: 0.5 ease;
     border-radius: 40px;
@@ -362,7 +362,7 @@ from, to {
 
 }
 .section-2 .my-img{
-    z-index: 7;
+    z-index: 2;
 }
 .section-2 .my-img .icon-inside-img{
     position: absolute;
@@ -547,7 +547,7 @@ from, to {
   }
 
   .portfolio-box{
-    width: 90%;
+    width: 95%;
     height: 90%;
     position: absolute;
     top: 40%;
