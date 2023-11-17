@@ -406,7 +406,7 @@ from, to {
 .about-me-text{
     position: absolute;
     top: 145%;
-    right: 190px;
+    right: 230px;
     transform: translateY(-50%);
     width: 700px;
     height: 700px;
