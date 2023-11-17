@@ -518,6 +518,8 @@ from, to {
 }
 .portfolio{
     background: var(--text-color);
+    padding: 70px 140px;
+    min-height: 1000px;
   }
 
 .portfolio .heading1{
@@ -532,9 +534,9 @@ from, to {
   }
 .portfolio-container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3,1fr);
     align-items: center;
-    gap: 2.5rem;
+    gap: 2rem;
   }
 
 .portfolio-container .portfolio-box{
@@ -543,6 +545,12 @@ from, to {
     box-shadow: 0 0 20px var(--main-color);
     overflow: hidden;
     display: flex;
+  }
+
+  .portfolio-box{
+    width: 90%;
+    position: absolute;
+    top: 40%;
   }
 .portfolio-box img{
     width:100%;
@@ -576,7 +584,8 @@ from, to {
   }
 
 .portfolio-layer h4{
-    font-size: 3rem;
+    font-size: 1.5rem;
+
 
   }
 
@@ -597,5 +606,5 @@ from, to {
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
-    background: var(--text-color);s
-  }
+    background: var(--text-color)
+ }
