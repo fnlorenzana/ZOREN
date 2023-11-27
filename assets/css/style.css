@@ -606,3 +606,72 @@ from, to {
     border-radius: 50%;
     background: var(--text-color)
  }
+
+.contact {
+    min-height: auto;
+    padding-bottom: 7rem;
+
+ }
+
+ .contact form{
+    max-width: 70rem;
+    margin: 0 auto;
+    text-align: center;
+ }
+
+ .contact form .input-box{
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+
+ .contact form .input-box .input-field{
+    position: relative;
+    width: 49%;
+    margin: .8rem 0;
+
+ }
+
+ .contact form .input-box .input-field input,
+ .contact form .textarea-field textarea{
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color:#161A1C ;
+    background: transparent;
+    border-radius: .6rem;
+    border: .2rem solid var(--main-color);
+
+ }
+
+ .contact form .input-box .input-field input::placeholder,
+ .contact form .textarea-field textarea::placeholder{
+    color:white;
+ }
+
+ .contact form .focus{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: .6rem;
+    z-index: -1;
+ }
+
+ .contact form .input-box input:focus~.focus,
+ .contact form .input-box input:valid~.focus{
+    width: 100%;
+ }
+
+ .contact form .textarea-field{
+    position: relative;
+    margin: .8rem 0 2.7rem;
+    resize: none;
+ }
+
+ .contact form .btn-box.btns .btn{
+    cursor: pointer;
+
+ }
